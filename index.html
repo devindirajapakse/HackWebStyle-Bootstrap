@@ -38,6 +38,25 @@
         height: 60px;
         padding: 10px 0 0 20px;
     }
+
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
     </style>
   <body>
 
@@ -88,7 +107,7 @@
 
     <div class="jumbotron alert-danger" >
         <h1 class="display-4">HacktoberFest 2021</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p class="lead">Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects.This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
 
@@ -281,6 +300,8 @@
   </tbody>
 </table>
 
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -299,11 +320,21 @@
 If you are interested in the above, please forward your CV to Mr.Aruna - <br>
 Asst.Manager HR & Admin. hr@abc.lk
     </p>
+    <h2>Profile details</h2>
 
+<div class="card">
+  <img src="hacktober.jpg" alt="Avatar" style="width:70%">
+  <div class="container">
+    <h4><b>Jane Doe</b></h4> 
+    <p>Interior Designer</p> 
+  </div>
+</div>
 
-    <h4 style="color:blue;font-family:Arial;">For further information call on:<br>
+ 
+
+    <h6 style="color:rgb(21, 21, 73);font-family:'Courier New', Courier, monospace;">For further information call on:<br>
     0115446000
-    </h4>
+    </h6>
 
 
 
